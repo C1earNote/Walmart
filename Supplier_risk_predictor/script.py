@@ -67,7 +67,7 @@ def fetch_news_for_supplier(supplier_name):
     if response.status_code == 200:
         return response.json().get("articles", [])
     else:
-        print(f"⚠️ Error fetching news for {supplier_name}: {response.status_code}")
+        print(f" Error fetching news for {supplier_name}: {response.status_code}")
         return []
 
 # --- Main Risk Evaluation Loop ---
