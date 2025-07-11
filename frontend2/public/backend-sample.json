@@ -1,0 +1,560 @@
+{
+  "generatedAt": "2025-07-10T13:22:26.582583Z",
+  "supplier_risk_report": [
+    {
+      "supplier_name": "Welspun India Ltd",
+      "state": "Gujarat",
+      "city": "Anjar",
+      "category": "Apparel & Textiles",
+      "overall_sentiment": "Positive",
+      "average_polarity_score": 0.2875146468480428,
+      "articles": [
+        {
+          "title": "Sensex down over 300 pts, realty and financial stocks drag while metals shine; Tata Steel, JSW Steel lead gainers",
+          "url": "https://www.thehindubusinessline.com/markets/stock-markets/sensex-down-over-300-pts-realty-and-financial-stocks-drag-while-metals-shine-tata-steel-jsw-steel-lead-gainers/article69763380.ece",
+          "publishedAt": "2025-07-02T08:12:02Z",
+          "risk_keywords": [],
+          "risk_score": 0,
+          "sentiment": "Negative",
+          "polarity_score": -0.9994003772735596
+        },
+        {
+          "title": "Paras Defence, M&M, 1 others approach record dates for dividends, splits, rights, bonus issue. Check details here",
+          "url": "https://m.economictimes.com/markets/stocks/news/paras-defence-mm-1-others-approach-record-dates-for-dividends-splits-rights-bonus-issue-check-details-here/corporate-calendar-next-week/slideshow/122125892.cms",
+          "publishedAt": "2025-06-28T06:28:51Z",
+          "risk_keywords": [],
+          "risk_score": 0,
+          "sentiment": "Positive",
+          "polarity_score": 0.9978728294372559
+        },
+        {
+          "title": "Stock Market Highlights 27 June 2025: Sensex, Nifty close firmer on foreign fund inflows, buying in blue-chips",
+          "url": "https://www.thehindubusinessline.com/markets/share-market-nifty-sensex-highlights-27-june-2025/article69740244.ece",
+          "publishedAt": "2025-06-27T01:06:51Z",
+          "risk_keywords": [],
+          "risk_score": 0,
+          "sentiment": "Positive",
+          "polarity_score": 0.8640714883804321
+        }
+      ]
+    },
+    {
+      "supplier_name": "LT Foods",
+      "state": "Haryana",
+      "city": "Sonipat",
+      "category": "Spices & Grocery",
+      "overall_sentiment": "Negative",
+      "average_polarity_score": -0.9866553544998169,
+      "articles": [
+        {
+          "title": "Stock market update: FMCG stocks up as market falls",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-watch/stock-market-update-fmcg-stocks-up-as-market-falls/articleshow/122342017.cms",
+          "publishedAt": "2025-07-09T10:51:02Z",
+          "risk_keywords": [],
+          "risk_score": 0,
+          "sentiment": "Negative",
+          "polarity_score": -0.9988352656364441
+        },
+        {
+          "title": "Q1 kick-off: Motilal bets on ITC, Varun Beverages and 6 other FMCG stocks with up to 36% gains",
+          "url": "https://m.economictimes.com/markets/stocks/news/q1-kick-off-motilal-bets-on-itc-varun-beverages-and-6-other-fmcg-stocks-with-up-to-36-gains/fmcg-picks/slideshow/122336940.cms",
+          "publishedAt": "2025-07-09T06:55:55Z",
+          "risk_keywords": [],
+          "risk_score": 0,
+          "sentiment": "Negative",
+          "polarity_score": -0.961397647857666
+        },
+        {
+          "title": "Stock market update: FMCG stocks up as market falls",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-watch/stock-market-update-fmcg-stocks-up-as-market-falls/articleshow/122334177.cms",
+          "publishedAt": "2025-07-09T05:10:39Z",
+          "risk_keywords": [],
+          "risk_score": 0,
+          "sentiment": "Negative",
+          "polarity_score": -0.9997331500053406
+        }
+      ]
+    },
+    {
+      "supplier_name": "Aniket Metals Moradabad",
+      "state": "Uttar Pradesh",
+      "city": "Moradabad",
+      "category": "Furniture & Home",
+      "overall_sentiment": "Neutral",
+      "average_polarity_score": 0.0,
+      "articles": []
+    },
+    {
+      "supplier_name": "Sambhav Group",
+      "state": "Maharashtra",
+      "city": "Mumbai",
+      "category": "Apparel & Textiles",
+      "overall_sentiment": "Negative",
+      "average_polarity_score": -0.9972889423370361,
+      "articles": [
+        {
+          "title": "Kabaddi goes global: A new league draws up an international playbook with Olympic goals\u2014but can it last?",
+          "url": "https://www.livemint.com/companies/kabaddi-new-league-global-expansion-11751170434864.html",
+          "publishedAt": "2025-06-29T08:14:20Z",
+          "risk_keywords": [],
+          "risk_score": 0,
+          "sentiment": "Negative",
+          "polarity_score": -0.9972889423370361
+        }
+      ]
+    },
+    {
+      "supplier_name": "Shree Renuka Sugars Ltd.",
+      "state": "Karnataka",
+      "city": "Bangalore",
+      "category": "Spices & Grocery",
+      "overall_sentiment": "Negative",
+      "average_polarity_score": -0.9880216717720032,
+      "articles": [
+        {
+          "title": "Stock market update: Sugar stocks up as market rises",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-watch/stock-market-update-sugar-stocks-up-as-market-rises/articleshow/122298543.cms",
+          "publishedAt": "2025-07-07T11:38:01Z",
+          "risk_keywords": [],
+          "risk_score": 0,
+          "sentiment": "Negative",
+          "polarity_score": -0.9768796563148499
+        },
+        {
+          "title": "Stock market update: Sugar stocks up as market falls",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-watch/stock-market-update-sugar-stocks-up-as-market-falls/articleshow/122290531.cms",
+          "publishedAt": "2025-07-07T05:47:57Z",
+          "risk_keywords": [],
+          "risk_score": 0,
+          "sentiment": "Negative",
+          "polarity_score": -0.9997568726539612
+        },
+        {
+          "title": "Stock market update: Sugar stocks down as market rises",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-watch/stock-market-update-sugar-stocks-down-as-market-rises/articleshow/122250072.cms",
+          "publishedAt": "2025-07-04T11:43:15Z",
+          "risk_keywords": [],
+          "risk_score": 0,
+          "sentiment": "Negative",
+          "polarity_score": -0.9874284863471985
+        }
+      ]
+    },
+    {
+      "supplier_name": "Global Green Company",
+      "state": "Karnataka",
+      "city": "Tumkur",
+      "category": "Spices & Grocery",
+      "overall_sentiment": "Positive",
+      "average_polarity_score": 0.9941131869951884,
+      "articles": [
+        {
+          "title": "MaintainX Raises $150M to Transform Asset Management and Industrial Operations with AI",
+          "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/maintainx-raises-150m-to-transform-asset-management-and-industrial-operations-with-ai",
+          "publishedAt": "2025-07-09T13:18:03Z",
+          "risk_keywords": [],
+          "risk_score": 0,
+          "sentiment": "Positive",
+          "polarity_score": 0.9897191524505615
+        },
+        {
+          "title": "Aligned\u2019s Phoenix Data Center Earns Three Green Globes\u00ae Certification",
+          "url": "https://www.globenewswire.com/news-release/2025/07/09/3112574/0/en/Aligned-s-Phoenix-Data-Center-Earns-Three-Green-Globes-Certification.html",
+          "publishedAt": "2025-07-09T12:35:00Z",
+          "risk_keywords": [],
+          "risk_score": 0,
+          "sentiment": "Positive",
+          "polarity_score": 0.9994586110115051
+        },
+        {
+          "title": "Exploring questions of meaning, ethics and belief through Japanese anime",
+          "url": "https://theconversation.com/exploring-questions-of-meaning-ethics-and-belief-through-japanese-anime-260035",
+          "publishedAt": "2025-07-09T12:32:13Z",
+          "risk_keywords": [],
+          "risk_score": 0,
+          "sentiment": "Positive",
+          "polarity_score": 0.9931617975234985
+        }
+      ]
+    },
+    {
+      "supplier_name": "Hero Ecotech Ltd.",
+      "state": "Punjab",
+      "city": "Ludhiana",
+      "category": "Apparel & Textiles",
+      "overall_sentiment": "Neutral",
+      "average_polarity_score": 0.0,
+      "articles": []
+    },
+    {
+      "supplier_name": "Mrs Bectors Food Specialities Ltd.",
+      "state": "Punjab",
+      "city": "Rajpura",
+      "category": "Spices & Grocery",
+      "overall_sentiment": "Negative",
+      "average_polarity_score": -0.9918160239855448,
+      "articles": [
+        {
+          "title": "Stock market update: FMCG stocks up as market falls",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-watch/stock-market-update-fmcg-stocks-up-as-market-falls/articleshow/122342017.cms",
+          "publishedAt": "2025-07-09T10:51:02Z",
+          "risk_keywords": [],
+          "risk_score": 0,
+          "sentiment": "Negative",
+          "polarity_score": -0.9988352656364441
+        },
+        {
+          "title": "Stock market update: FMCG stocks up as market falls",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-watch/stock-market-update-fmcg-stocks-up-as-market-falls/articleshow/122334177.cms",
+          "publishedAt": "2025-07-09T05:10:39Z",
+          "risk_keywords": [],
+          "risk_score": 0,
+          "sentiment": "Negative",
+          "polarity_score": -0.9997331500053406
+        },
+        {
+          "title": "Stock market update: FMCG stocks up as market rises",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-watch/stock-market-update-fmcg-stocks-up-as-market-rises/articleshow/122297509.cms",
+          "publishedAt": "2025-07-07T10:51:05Z",
+          "risk_keywords": [],
+          "risk_score": 0,
+          "sentiment": "Negative",
+          "polarity_score": -0.9768796563148499
+        }
+      ]
+    },
+    {
+      "supplier_name": "Jayanti Spices",
+      "state": "Karnataka",
+      "city": "Bangalore",
+      "category": "Spices & Grocery",
+      "overall_sentiment": "Positive",
+      "average_polarity_score": 0.995266318321228,
+      "articles": [
+        {
+          "title": "Indian consumers are looking beyond colas. Jeera spices up this craving",
+          "url": "https://www.livemint.com/companies/beverage-battle-jeera-market-lahori-zeera-jeru-dhisoom-parle-coca-cola-parle-agro-cumin-ds-group-bisleri-reliance-11750146764400.html",
+          "publishedAt": "2025-06-18T00:20:08Z",
+          "risk_keywords": [],
+          "risk_score": 0,
+          "sentiment": "Positive",
+          "polarity_score": 0.995266318321228
+        }
+      ]
+    },
+    {
+      "supplier_name": "HyFun Foods Gujarat",
+      "state": "Gujarat",
+      "city": "Mehsana",
+      "category": "Spices & Grocery",
+      "overall_sentiment": "Neutral",
+      "average_polarity_score": 0.0,
+      "articles": []
+    },
+    {
+      "supplier_name": "Dixon Technologies",
+      "state": "Uttar Pradesh",
+      "city": "Noida",
+      "category": "Electronics",
+      "overall_sentiment": "Positive",
+      "average_polarity_score": 0.9924374024073283,
+      "articles": [
+        {
+          "title": "High End Lighting Market Size to Reach USD 25.10 Billion by 2032, grow at a CAGR of 6.64% | Research by SNS Insider",
+          "url": "https://www.globenewswire.com/news-release/2025/07/09/3112595/0/en/High-End-Lighting-Market-Size-to-Reach-USD-25-10-Billion-by-2032-grow-at-a-CAGR-of-6-64-Research-by-SNS-Insider.html",
+          "publishedAt": "2025-07-09T13:00:00Z",
+          "risk_keywords": [],
+          "risk_score": 0,
+          "sentiment": "Positive",
+          "polarity_score": 0.9994876384735107
+        },
+        {
+          "title": "Dixon Technologies shares in focus following formation of JV with Signify",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/dixon-technologies-shares-in-focus-following-formation-of-jv-with-signify/articleshow/122332814.cms",
+          "publishedAt": "2025-07-09T03:59:02Z",
+          "risk_keywords": [],
+          "risk_score": 0,
+          "sentiment": "Positive",
+          "polarity_score": 0.9972782731056213
+        },
+        {
+          "title": "Top stocks to buy or sell today: Stock recommendations for July 8, 2025 - here's what brokerages are saying",
+          "url": "https://timesofindia.indiatimes.com/business/india-business/top-stocks-to-buy-or-sell-today-stock-recommendations-for-july-8-2025-heres-what-brokerages-are-saying/articleshow/122308750.cms",
+          "publishedAt": "2025-07-08T01:59:12Z",
+          "risk_keywords": [],
+          "risk_score": 0,
+          "sentiment": "Positive",
+          "polarity_score": 0.9805462956428528
+        }
+      ]
+    },
+    {
+      "supplier_name": "MSME garment exporters",
+      "state": "Tamil Nadu",
+      "city": "Tirppur",
+      "category": "Apparel & Textiles",
+      "overall_sentiment": "Positive",
+      "average_polarity_score": 0.8440442879994711,
+      "articles": [
+        {
+          "title": "India-UK FTA, deals negotiated with EU, US to push textiles growth",
+          "url": "https://www.thehindubusinessline.com/economy/india-uk-fta-deals-negotiated-with-eu-us-to-push-textiles-growth/article69760581.ece",
+          "publishedAt": "2025-07-01T14:49:56Z",
+          "risk_keywords": [],
+          "risk_score": 0,
+          "sentiment": "Positive",
+          "polarity_score": 0.9945111274719238
+        },
+        {
+          "title": "India's FTAs with UK, US, EU to open new opportunities for Textiles sector: Margherita",
+          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/indias-ftas-with-uk-us-eu-to-open-new-opportunities-for-textiles-sector-margherita/articleshow/122185843.cms",
+          "publishedAt": "2025-07-01T13:28:57Z",
+          "risk_keywords": [],
+          "risk_score": 0,
+          "sentiment": "Positive",
+          "polarity_score": 0.9990843534469604
+        },
+        {
+          "title": "Current geopolitical situation an advantage to Indian MSME",
+          "url": "https://www.thehindubusinessline.com/news/current-geopolitical-situation-an-advantage-to-indian-msme/article69745776.ece",
+          "publishedAt": "2025-06-27T16:30:20Z",
+          "risk_keywords": [],
+          "risk_score": 0,
+          "sentiment": "Positive",
+          "polarity_score": 0.5385373830795288
+        }
+      ]
+    },
+    {
+      "supplier_name": "OEM manufacturers",
+      "state": "Maharastra",
+      "city": "Pune",
+      "category": "Apparel & Textiles",
+      "overall_sentiment": "Positive",
+      "average_polarity_score": 0.7938655813535055,
+      "articles": [
+        {
+          "title": "India to contribute 20 % to volumes in the automotive segment over next 10 years : MediaTek",
+          "url": "https://www.thehindubusinessline.com/news/india-to-contribute-20-pc-to-volumes-in-the-automotive-segment-over-next-10-years-mediatek/article69791761.ece",
+          "publishedAt": "2025-07-09T13:13:29Z",
+          "risk_keywords": [],
+          "risk_score": 0,
+          "sentiment": "Positive",
+          "polarity_score": 0.6921498775482178
+        },
+        {
+          "title": "India to contribute 20 % to volumes in the automotive segment over next 10 years : MediaTek",
+          "url": "https://www.thehindubusinessline.com/economy/india-to-contribute-20-pc-to-volumes-in-the-automotive-segment-over-next-10-years-mediatek/article69791761.ece",
+          "publishedAt": "2025-07-09T13:13:29Z",
+          "risk_keywords": [],
+          "risk_score": 0,
+          "sentiment": "Positive",
+          "polarity_score": 0.6921498775482178
+        },
+        {
+          "title": "Xpeng and its market entry strategy for the UK",
+          "url": "https://www.just-auto.com/interview/xpeng-and-its-market-entry-strategy-for-the-uk/",
+          "publishedAt": "2025-07-09T10:27:03Z",
+          "risk_keywords": [],
+          "risk_score": 0,
+          "sentiment": "Positive",
+          "polarity_score": 0.9972969889640808
+        }
+      ]
+    },
+    {
+      "supplier_name": "Adani Wilmar Ltd",
+      "state": "Gujarat",
+      "city": "Mundra",
+      "category": "Spices & Grocery",
+      "overall_sentiment": "Positive",
+      "average_polarity_score": 0.3331397970517476,
+      "articles": [
+        {
+          "title": "Castor Oil & Derivatives Market to Reach USD 2.14 Billion by 2032 | Demand Driven by Growth in Cosmetics, Pharmaceuticals, and Bio-based Chemicals",
+          "url": "https://www.globenewswire.com/news-release/2025/07/08/3111882/0/en/Castor-Oil-Derivatives-Market-to-Reach-USD-2-14-Billion-by-2032-Demand-Driven-by-Growth-in-Cosmetics-Pharmaceuticals-and-Bio-based-Chemicals.html",
+          "publishedAt": "2025-07-08T13:45:00Z",
+          "risk_keywords": [],
+          "risk_score": 0,
+          "sentiment": "Positive",
+          "polarity_score": 0.9993304014205933
+        },
+        {
+          "title": "Indian biscuits, shampoos & poha go global: FMCG exports outpace domestic sales for HUL, Dabur and others",
+          "url": "https://economictimes.indiatimes.com/industry/cons-products/fmcg/indian-biscuits-shampoos-poha-go-global-fmcg-exports-outpace-domestic-sales-for-hul-dabur-and-others/articleshow/122272121.cms",
+          "publishedAt": "2025-07-05T23:55:00Z",
+          "risk_keywords": [],
+          "risk_score": 0,
+          "sentiment": "Positive",
+          "polarity_score": 0.999183714389801
+        },
+        {
+          "title": "AWL Agri Q1 Updates: Revenue Up 21%, Volumes Fall 4%",
+          "url": "https://www.ndtvprofit.com/business/awl-agri-q1-fy26-updates-revenue-up-volumes-fall",
+          "publishedAt": "2025-07-03T16:18:54Z",
+          "risk_keywords": [],
+          "risk_score": 0,
+          "sentiment": "Negative",
+          "polarity_score": -0.9990947246551514
+        }
+      ]
+    },
+    {
+      "supplier_name": "Vedanta Aluminium Ltd",
+      "state": "Odisha",
+      "city": "Jharsuguda",
+      "category": "Electronics",
+      "overall_sentiment": "Positive",
+      "average_polarity_score": 0.2884601354598999,
+      "articles": [
+        {
+          "title": "Vedanta shares down 2% in 1 year but giving 7% dividend. Is it enough to buy the stock?",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/vedanta-shares-down-2-in-1-year-but-giving-7-dividend-is-it-enough-to-buy-the-stock/articleshow/122313316.cms",
+          "publishedAt": "2025-07-08T06:21:22Z",
+          "risk_keywords": [],
+          "risk_score": 0,
+          "sentiment": "Positive",
+          "polarity_score": 0.9333625435829163
+        },
+        {
+          "title": "Vedanta's investor dilemma: Dividend king, pauper returns; time to buy or say bye?",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/vedantas-investor-dilemma-dividend-king-pauper-returns-time-to-buy-or-say-bye/articleshow/122242757.cms",
+          "publishedAt": "2025-07-04T06:18:16Z",
+          "risk_keywords": [],
+          "risk_score": 0,
+          "sentiment": "Negative",
+          "polarity_score": -0.8755196928977966
+        },
+        {
+          "title": "Vedanta Q1 Updates: Aluminium Production Up 1%, Zinc Down 5%",
+          "url": "https://www.ndtvprofit.com/business/vedanta-q1-fy26-updates-aluminium-production-up-zinc-down",
+          "publishedAt": "2025-07-03T15:07:19Z",
+          "risk_keywords": [],
+          "risk_score": 0,
+          "sentiment": "Positive",
+          "polarity_score": 0.8075375556945801
+        }
+      ]
+    },
+    {
+      "supplier_name": "Bajaj Auto Ltd",
+      "state": "Maharashtra",
+      "city": "Pune",
+      "category": "Apparel & Textiles",
+      "overall_sentiment": "Negative",
+      "average_polarity_score": -0.9874985814094543,
+      "articles": [
+        {
+          "title": "Stock market update: Fertilisers stocks down as market rises",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-watch/stock-market-update-fertilisers-stocks-down-as-market-rises/articleshow/122320968.cms",
+          "publishedAt": "2025-07-08T11:59:29Z",
+          "risk_keywords": [],
+          "risk_score": 0,
+          "sentiment": "Negative",
+          "polarity_score": -0.9874985814094543
+        },
+        {
+          "title": "Stock market update: Sugar stocks down as market rises",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-watch/stock-market-update-sugar-stocks-down-as-market-rises/articleshow/122319794.cms",
+          "publishedAt": "2025-07-08T11:12:09Z",
+          "risk_keywords": [],
+          "risk_score": 0,
+          "sentiment": "Negative",
+          "polarity_score": -0.9874985814094543
+        },
+        {
+          "title": "Stock market update: FMCG stocks down as market rises",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-watch/stock-market-update-fmcg-stocks-down-as-market-rises/articleshow/122319334.cms",
+          "publishedAt": "2025-07-08T10:51:07Z",
+          "risk_keywords": [],
+          "risk_score": 0,
+          "sentiment": "Negative",
+          "polarity_score": -0.9874985814094543
+        }
+      ]
+    },
+    {
+      "supplier_name": "Balrampur Chini Mills",
+      "state": "Uttar Pradesh",
+      "city": "Balrampur",
+      "category": "Spices & Grocery",
+      "overall_sentiment": "Negative",
+      "average_polarity_score": -0.9586020509401957,
+      "articles": [
+        {
+          "title": "Stock market update: Sugar stocks down as market falls",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-watch/stock-market-update-sugar-stocks-down-as-market-falls/articleshow/122343260.cms",
+          "publishedAt": "2025-07-09T11:48:58Z",
+          "risk_keywords": [],
+          "risk_score": 0,
+          "sentiment": "Negative",
+          "polarity_score": -0.9988352656364441
+        },
+        {
+          "title": "From sweet to synthetic: Balrampur Chini's \u20b92,850 crore plastic gamble",
+          "url": "https://www.livemint.com/companies/news/balrampur-chini-cane-sugar-diversification-rs-2850-crore-pla-plant-biodegradable-plastic-11751981192785.html",
+          "publishedAt": "2025-07-09T07:49:46Z",
+          "risk_keywords": [],
+          "risk_score": 0,
+          "sentiment": "Negative",
+          "polarity_score": -0.9407002329826355
+        },
+        {
+          "title": "Stock market update: Sugar stocks down as market rises",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-watch/stock-market-update-sugar-stocks-down-as-market-rises/articleshow/122335139.cms",
+          "publishedAt": "2025-07-09T05:57:20Z",
+          "risk_keywords": [],
+          "risk_score": 0,
+          "sentiment": "Negative",
+          "polarity_score": -0.9362706542015076
+        }
+      ]
+    },
+    {
+      "supplier_name": "Amul Dairy",
+      "state": "Gujarat",
+      "city": "Anand",
+      "category": "Spices & Grocery",
+      "overall_sentiment": "Positive",
+      "average_polarity_score": 0.9675939480463663,
+      "articles": [
+        {
+          "title": "Make transparency, tech and people's welfare integral to 'work culture' of co-op sector: Shah",
+          "url": "https://economictimes.indiatimes.com/news/india/make-transparency-tech-and-peoples-welfare-integral-to-work-culture-of-co-op-sector-shah/articleshow/122282111.cms",
+          "publishedAt": "2025-07-06T15:48:17Z",
+          "risk_keywords": [],
+          "risk_score": 0,
+          "sentiment": "Positive",
+          "polarity_score": 0.998467743396759
+        },
+        {
+          "title": "Make tech and people\u2019s interest integral to \u2018work culture\u2019 of cooperative sector: Amit Shah",
+          "url": "https://statetimes.in/make-tech-and-peoples-interest-integral-to-work-culture-of-cooperative-sector-amit-shah/",
+          "publishedAt": "2025-07-06T15:37:18Z",
+          "risk_keywords": [],
+          "risk_score": 0,
+          "sentiment": "Positive",
+          "polarity_score": 0.9983071088790894
+        },
+        {
+          "title": "New multi-State milk co-operative set up in Gujarat to source milk from 20 States, 2 UTs",
+          "url": "https://www.thehindubusinessline.com/economy/new-multi-state-milk-co-operative-set-up-in-gujarat-to-source-milk-from-20-states-2-uts/article69779617.ece",
+          "publishedAt": "2025-07-06T08:35:57Z",
+          "risk_keywords": [],
+          "risk_score": 0,
+          "sentiment": "Positive",
+          "polarity_score": 0.9060069918632507
+        }
+      ]
+    },
+    {
+      "supplier_name": "Keventer Agro",
+      "state": "West Bengal",
+      "city": "Kolkata",
+      "category": "Spices & Grocery",
+      "overall_sentiment": "Neutral",
+      "average_polarity_score": 0.0,
+      "articles": []
+    }
+  ]
+}

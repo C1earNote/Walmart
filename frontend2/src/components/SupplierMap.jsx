@@ -1,71 +1,89 @@
 import React, { useEffect, useState } from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import { getSentimentColor } from "../utils/sentimentColor";
-import { fetchSupplierRiskData } from "../services/api"; // 🔁 using mock API now
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 
-const SupplierMap = () => {
-  const [data, setData] = useState([]);
+const SupplierMap = ({ suppliers }) => {
+  const [stateCoords, setStateCoords] = useState({});
+  const [readySuppliers, setReadySuppliers] = useState([]);
 
   useEffect(() => {
-    fetchSupplierRiskData()
-      .then((res) => setData(res.supplier_risk_report))
-      .catch(console.error);
+    // Load state coordinates from public/in.json
+    fetch("/in.json")
+      .then((res) => res.json())
+      .then((states) => {
+        // Build a lookup: state name (case-insensitive) => [lat, lng]
+        const lookup = {};
+        states.forEach((state) => {
+          lookup[state["State.Name"].trim().toLowerCase()] = [parseFloat(state.latitude), parseFloat(state.longitude)];
+        });
+        setStateCoords(lookup);
+      });
   }, []);
 
-  const cityCoords = {
-    Mumbai: [19.0760, 72.8777],
-    Bangalore: [12.9716, 77.5946],
-    Sonipat: [28.9958, 77.0114],
-    Anjar: [23.1135, 70.0264],
-    Tumkur: [13.3409, 77.1010],
-    Moradabad: [28.8386, 78.7733],
-    // Add more if needed
-  };
+  useEffect(() => {
+    // When stateCoords or suppliers change, build the list of suppliers with coordinates
+    if (Object.keys(stateCoords).length === 0 || suppliers.length === 0) {
+      setReadySuppliers([]);
+      return;
+    }
+    const withCoords = suppliers.map((supplier) => {
+      const coords = stateCoords[supplier.state?.trim().toLowerCase()];
+      if (!coords) {
+        console.warn(`No coordinates found for state: ${supplier.state}`);
+        return null;
+      }
+      return { ...supplier, coords };
+    }).filter(Boolean);
+    setReadySuppliers(withCoords);
+  }, [stateCoords, suppliers]);
 
   return (
-    <div style={{ width: "100vw", maxWidth: "100%", margin: 0, padding: 0 }}>
-      <MapContainer
-        center={[22.5937, 78.9629]}
-        zoom={5.2}
-        style={{ height: "600px", width: "100vw" }}
-      >
-        <TileLayer
-          attribution='&copy; <a href="http://osm.org">OpenStreetMap</a> contributors'
-          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-        />
-
-        {data.map((supplier, i) => {
-          const coords = cityCoords[supplier.city];
-          if (!coords) return null;
-
-          const color = getSentimentColor(
-            supplier.overall_sentiment,
-            supplier.average_polarity_score
-          );
-
-          const icon = new L.DivIcon({
-            className: "custom-icon",
-            html: `<div style="background:${color};width:16px;height:16px;border-radius:50%;border:2px solid white;"></div>`,
-          });
-
-          return (
-            <Marker key={i} position={coords} icon={icon}>
-              <Popup>
-                <strong>{supplier.supplier_name}</strong>
-                <br />
-                Category: {supplier.category}
-                <br />
-                Sentiment: {supplier.overall_sentiment}
-                <br />
-                Polarity: {supplier.average_polarity_score.toFixed(2)}
-              </Popup>
-            </Marker>
-          );
-        })}
-      </MapContainer>
-    </div>
+    <MapContainer
+      center={[22.5937, 78.9629]}
+      zoom={5.2}
+      className="justmap"
+      style={{ borderRadius: "20px", overflow: "hidden", boxShadow: "0 4px 24px rgba(0,0,0,0.12)" }}
+      scrollWheelZoom={false}
+    >
+      <TileLayer
+        attribution='&copy; <a href="http://osm.org">OpenStreetMap</a> contributors'
+        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+      />
+      {readySuppliers.map((supplier, i) => {
+        const color = getSentimentColor(supplier.overall_sentiment, supplier.average_polarity_score);
+        const icon = new L.DivIcon({
+          className: "custom-icon",
+          html: `<div style="background:${color};width:18px;height:18px;border-radius:50%;border:2px solid white;"></div>`,
+          iconSize: [18, 18],
+          iconAnchor: [9, 9],
+        });
+        return (
+          <Marker key={i} position={supplier.coords} icon={icon}>
+            <Popup eventHandlers={{ add: () => console.log('Popup for', supplier.supplier_name, 'articles:', supplier.articles) }}>
+              <strong>{supplier.supplier_name}</strong><br />
+              <span>{supplier.city}, {supplier.state}</span><br />
+              <span>{supplier.category}</span><br />
+              <span>Sentiment: {supplier.overall_sentiment}</span><br />
+              <span>Polarity: {supplier.average_polarity_score?.toFixed(2)}</span>
+              {supplier.articles && supplier.articles.length > 0 && (
+                <div style={{ marginTop: 8 }}>
+                  <strong>Headlines:</strong>
+                  <ul style={{ paddingLeft: 16 }}>
+                    {supplier.articles.map((a, j) => (
+                      <li key={j} style={{ marginBottom: 4 }}>
+                        <a href={a.url} target="_blank" rel="noopener noreferrer">{a.title}</a>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+            </Popup>
+          </Marker>
+        );
+      })}
+    </MapContainer>
   );
 };
 

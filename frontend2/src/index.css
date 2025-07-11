@@ -4,7 +4,7 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
+  color: rgba(173, 93, 93, 0.87);
   background-color: #242424;
 
   font-synthesis: none;
@@ -28,6 +28,9 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background: #302f2f;
+  padding: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
 }
 
 h1 {
@@ -65,14 +68,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
-
-.custom-icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.leaflet-popup-content {
-  font-size: 14px;
 }

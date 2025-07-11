@@ -1,0 +1,218 @@
+[
+  {
+    "": 1,
+    "State.Name": "ANDAMAN AND NICOBAR",
+    "latitude": 11.66702557,
+    "longitude": 92.73598262
+  },
+  {
+    "": 2,
+    "State.Name": "ANDHRA PRADESH",
+    "latitude": 14.7504291,
+    "longitude": 78.57002559
+  },
+  {
+    "": 3,
+    "State.Name": "ARUNACHAL PRADESH",
+    "latitude": 27.10039878,
+    "longitude": 93.61660071
+  },
+  {
+    "": 4,
+    "State.Name": "ASSAM",
+    "latitude": 26.7499809,
+    "longitude": 94.21666744
+  },
+  {
+    "": 5,
+    "State.Name": "BIHAR",
+    "latitude": 25.78541445,
+    "longitude": 87.4799727
+  },
+  {
+    "": 6,
+    "State.Name": "CHANDIGARH",
+    "latitude": 30.71999697,
+    "longitude": 76.78000565
+  },
+  {
+    "": 7,
+    "State.Name": "CHHATTISGARH",
+    "latitude": 22.09042035,
+    "longitude": 82.15998734
+  },
+  {
+    "": 8,
+    "State.Name": "DADRA AND NAGAR HAVELI",
+    "latitude": 20.26657819,
+    "longitude": 73.0166178
+  },
+  {
+    "": 9,
+    "State.Name": "DELHI",
+    "latitude": 28.6699929,
+    "longitude": 77.23000403
+  },
+  {
+    "": 10,
+    "State.Name": "GOA",
+    "latitude": 15.491997,
+    "longitude": 73.81800065
+  },
+  {
+    "": 11,
+    "State.Name": "GUJARAT",
+    "latitude": 22.30039261,
+    "longitude": 72.57998734
+  },
+  {
+    "": 12,
+    "State.Name": "HARYANA",
+    "latitude": 28.45000633,
+    "longitude": 77.01999101
+  },
+  {
+    "": 13,
+    "State.Name": "HIMACHAL PRADESH",
+    "latitude": 31.10002545,
+    "longitude": 77.16659704
+  },
+  {
+    "": 14,
+    "State.Name": "JAMMU AND KASHMIR",
+    "latitude": 34.29995933,
+    "longitude": 74.46665849
+  },
+  {
+    "": 14,
+    "State.Name": "JHARKHAND",
+    "latitude": 23.80039349,
+    "longitude": 86.41998572
+  },
+  {
+    "": 15,
+    "State.Name": "KARNATAKA",
+    "latitude": 12.57038129,
+    "longitude": 76.91999711
+  },
+  {
+    "": 16,
+    "State.Name": "KERALA",
+    "latitude": 8.900372741,
+    "longitude": 76.56999263
+  },
+  {
+    "": 17,
+    "State.Name": "LAKSHADWEEP",
+    "latitude": 10.56257331,
+    "longitude": 72.63686717
+  },
+  {
+    "": 18,
+    "State.Name": "MADHYA PRADESH",
+    "latitude": 21.30039105,
+    "longitude": 76.13001949
+  },
+  {
+    "": 19,
+    "State.Name": "MAHARASTRA",
+    "latitude": 19.25023195,
+    "longitude": 73.16017493
+  },
+  {
+    "": 19,
+    "State.Name": "MAHARASHTRA",
+    "latitude": 19.25023195,
+    "longitude": 73.16017493
+  },
+  {
+    "": 20,
+    "State.Name": "MANIPUR",
+    "latitude": 24.79997072,
+    "longitude": 93.95001705
+  },  
+  {
+    "": 21,
+    "State.Name": "MEGHALAYA",
+    "latitude": 25.57049217,
+    "longitude": 91.8800142
+  },
+  {
+    "": 22,
+    "State.Name": "MIZORAM",
+    "latitude": 23.71039899,
+    "longitude": 92.72001461
+  },
+  {
+    "": 23,
+    "State.Name": "NAGALAND",
+    "latitude": 25.6669979,
+    "longitude": 94.11657019
+  },
+  {
+    "": 24,
+    "State.Name": "ODISHA",
+    "latitude": 19.82042971,
+    "longitude": 85.90001746
+  },
+  {
+    "": 24,
+    "State.Name": "ORISSA",
+    "latitude": 19.82042971,
+    "longitude": 85.90001746
+  },
+  {
+    "": 25,
+    "State.Name": "PUDUCHERRY",
+    "latitude": 11.93499371,
+    "longitude": 79.83000037
+  },
+  {
+    "": 26,
+    "State.Name": "PUNJAB",
+    "latitude": 31.51997398,
+    "longitude": 75.98000281
+  },
+  {
+    "": 27,
+    "State.Name": "RAJASTHAN",
+    "latitude": 26.44999921,
+    "longitude": 74.63998124
+  },
+  {
+    "": 28,
+    "State.Name": "SIKKIM",
+    "latitude": 27.3333303,
+    "longitude": 88.6166475
+  },
+  {
+    "": 29,
+    "State.Name": "TAMIL NADU",
+    "latitude": 12.92038576,
+    "longitude": 79.15004187
+  },
+  {
+    "": 30,
+    "State.Name": "TRIPURA",
+    "latitude": 23.83540428,
+    "longitude": 91.27999914
+  },
+  {
+    "": 31,
+    "State.Name": "UTTAR PRADESH",
+    "latitude": 27.59998069,
+    "longitude": 78.05000565
+  },
+  {
+    "": 32,
+    "State.Name": "UTTARANCHAL",
+    "latitude": 30.32040895,
+    "longitude": 78.05000565
+  },
+  {
+    "": 33,
+    "State.Name": "WEST BENGAL",
+    "latitude": 22.58039044,
+    "longitude": 88.32994665
+  }
+]
