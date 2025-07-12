@@ -3,8 +3,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-NEWS_API_KEY = os.getenv("NEWS_API_KEY")
-NEWS_ENDPOINT = "https://newsapi.org/v2/everything"
+GNEWS_API_KEY = os.getenv("GNEWS_API_KEY")
+GNEWS_ENDPOINT = "https://gnews.io/api/v4/search"
 
 RISK_KEYWORDS = [
     "strike", "protest", "labour unrest", "shutdown", "fire", "flood",
