@@ -169,7 +169,6 @@ async def analyze_individual_supplier(supplier_data: SupplierRequest):
 @router.post("/analyze-supplier-llm")
 async def analyze_supplier_llm(supplier: SupplierLLMRequest):
     try:
-        # Fetch news and analyze
         articles = fetch_news(supplier.supplier_name)
         processed_news = []
         for article in articles:
@@ -185,11 +184,14 @@ async def analyze_supplier_llm(supplier: SupplierLLMRequest):
                 "sentiment": sentiment["sentiment"],
                 "polarity_score": sentiment["polarity_score"]
             })
-        # Fetch road/weather details
         road_details = fetch_road_details(supplier.state, supplier.latitude, supplier.longitude)
-        # Generate risk report using LLM
-        report = llm_generate_risk_report(supplier.supplier_name, processed_news, road_details)
-        return report
+        # Pass the actual state to the LLM prompt by including it in the news_json
+        llm_report = llm_generate_risk_report(
+            supplier_name=supplier.supplier_name,
+            news_json={"articles": processed_news, "state": supplier.state},
+            road_json=road_details
+        )
+        return llm_report
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error in LLM supplier analysis: {str(e)}")
 
