@@ -1,0 +1,156 @@
+{
+  "suppliers": [
+    {
+      "supplier_name": "Welspun India Ltd",
+      "state": "Gujarat",
+      "city": "Anjar",
+      "category_name": "Apparel & Textiles",
+      "latitude": 22.30039261,
+      "longitude": 72.57998734
+    },
+    {
+      "supplier_name": "LT Foods",
+      "state": "Haryana",
+      "city": "Sonipat",
+      "category_name": "Spices & Grocery",
+      "latitude": 28.45000633,
+      "longitude": 77.01999101
+    },
+    {
+      "supplier_name": "Aniket Metals Moradabad",
+      "state": "Uttar Pradesh",
+      "city": "Moradabad",
+      "category_name": "Furniture & Home",
+      "latitude": 27.59998069,
+      "longitude": 78.05000565
+    },
+    {
+      "supplier_name": "Sambhav Group",
+      "state": "Maharashtra",
+      "city": "Mumbai",
+      "category_name": "Apparel & Textiles",
+      "latitude": 19.25023195,
+      "longitude": 73.16017493
+    },
+    {
+      "supplier_name": "Shree Renuka Sugars Ltd.",
+      "state": "Karnataka",
+      "city": "Bangalore",
+      "category_name": "Spices & Grocery",
+      "latitude": 12.57038129,
+      "longitude": 76.91999711
+    },
+    {
+      "supplier_name": "Global Green Company",
+      "state": "Karnataka",
+      "city": "Tumkur",
+      "category_name": "Spices & Grocery",
+      "latitude": 12.57038129,
+      "longitude": 76.91999711
+    },
+    {
+      "supplier_name": "Hero Ecotech Ltd.",
+      "state": "Punjab",
+      "city": "Ludhiana",
+      "category_name": "Apparel & Textiles",
+      "latitude": 31.51997398,
+      "longitude": 75.98000281
+    },
+    {
+      "supplier_name": "Mrs Bectors Food Specialities Ltd.",
+      "state": "Punjab",
+      "city": "Rajpura",
+      "category_name": "Spices & Grocery",
+      "latitude": 31.51997398,
+      "longitude": 75.98000281
+    },
+    {
+      "supplier_name": "Jayanti Spices",
+      "state": "Karnataka",
+      "city": "Bangalore",
+      "category_name": "Spices & Grocery",
+      "latitude": 12.57038129,
+      "longitude": 76.91999711
+    },
+    {
+      "supplier_name": "HyFun Foods Gujarat",
+      "state": "Gujarat",
+      "city": "Mehsana",
+      "category_name": "Spices & Grocery",
+      "latitude": 22.30039261,
+      "longitude": 72.57998734
+    },
+    {
+      "supplier_name": "Dixon Technologies",
+      "state": "Uttar Pradesh",
+      "city": "Noida",
+      "category_name": "Electronics",
+      "latitude": 27.59998069,
+      "longitude": 78.05000565
+    },
+    {
+      "supplier_name": "MSME garment exporters",
+      "state": "Tamil Nadu",
+      "city": "Tirppur",
+      "category_name": "Apparel & Textiles",
+      "latitude": 12.92038576,
+      "longitude": 79.15004187
+    },
+    {
+      "supplier_name": "OEM manufacturers",
+      "state": "Maharastra",
+      "city": "Pune",
+      "category_name": "Apparel & Textiles",
+      "latitude": 19.25023195,
+      "longitude": 73.16017493
+    },
+    {
+      "supplier_name": "Adani Wilmar Ltd",
+      "state": "Gujarat",
+      "city": "Mundra",
+      "category_name": "Spices & Grocery",
+      "latitude": 22.30039261,
+      "longitude": 72.57998734
+    },
+    {
+      "supplier_name": "Vedanta Aluminium Ltd",
+      "state": "Odisha",
+      "city": "Jharsuguda",
+      "category_name": "Electronics",
+      "latitude": 19.82042971,
+      "longitude": 85.90001746
+    },
+    {
+      "supplier_name": "Bajaj Auto Ltd",
+      "state": "Maharashtra",
+      "city": "Pune",
+      "category_name": "Apparel & Textiles",
+      "latitude": 19.25023195,
+      "longitude": 73.16017493
+    },
+    {
+      "supplier_name": "Balrampur Chini Mills",
+      "state": "Uttar Pradesh",
+      "city": "Balrampur",
+      "category_name": "Spices & Grocery",
+      "latitude": 27.59998069,
+      "longitude": 78.05000565
+    },
+    {
+      "supplier_name": "Amul Dairy",
+      "state": "Gujarat",
+      "city": "Anand",
+      "category_name": "Spices & Grocery",
+      "latitude": 22.30039261,
+      "longitude": 72.57998734
+    },
+    {
+      "supplier_name": "Keventer Agro",
+      "state": "West Bengal",
+      "city": "Kolkata",
+      "category_name": "Spices & Grocery",
+      "latitude": 22.58039044,
+      "longitude": 88.32994665
+    }
+  ]
+}
