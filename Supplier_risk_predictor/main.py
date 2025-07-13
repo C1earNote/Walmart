@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 from app import router  
+from storage_analysis import router as storage_router
 
 app = FastAPI(
     title="Supplier Risk Analyzer",
@@ -8,6 +9,7 @@ app = FastAPI(
 )
 
 app.include_router(router, prefix="/api", tags=["Suppliers"])
+app.include_router(storage_router, prefix="/api", tags=["Storage Analysis"])
 
 @app.get("/")
 def root():
@@ -16,7 +18,11 @@ def root():
         "message": "Supplier Risk Analyzer API",
         "version": "1.0.0",
         "endpoints": {
-            "risk_report": "/api/risk-report"
+            "supplier_risk_report": "/api/risk-report",
+            "analyze_supplier": "/api/analyze-supplier",
+            "storage_demand_analysis": "/api/storage-demand-analysis",
+            "storage_locations": "/api/storage-locations",
+            "storage_location_by_id": "/api/storage-location/{location_id}"
         }
     }
 
