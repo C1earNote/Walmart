@@ -1,0 +1,132 @@
+[
+    {
+        "id": 1,
+        "address": "1st & 4th Floor, Orchid Center, Golf Course Road, Sector 53, Gurgaon, Haryana",
+        "coordinates": {
+            "latitude": 28.4595,
+            "longitude": 77.0266
+        },
+        "items": [
+            "Electronics",
+            "Home Appliances",
+            "Clothing"
+        ]
+    },
+    {
+        "id": 2,
+        "address": "Kuberpur, Agra, Uttar Pradesh",
+        "coordinates": {
+            "latitude": 27.1767,
+            "longitude": 78.0081
+        },
+        "items": [
+            "Groceries",
+            "Beverages",
+            "Snacks"
+        ]
+    },
+    {
+        "id": 3,
+        "address": "Opposite Bhopal Memorial Hospital, Raisen Bypass Road, Bhopal, Madhya Pradesh",
+        "coordinates": {
+            "latitude": 23.2599,
+            "longitude": 77.4126
+        },
+        "items": [
+            "Furniture",
+            "Kitchenware",
+            "Decor"
+        ]
+    },
+    {
+        "id": 4,
+        "address": "RS 494/A, Opp: CIMS College, Tobaco Colony, Mangal Das Nagar, Guntur, Andhra Pradesh",
+        "coordinates": {
+            "latitude": 16.3067,
+            "longitude": 80.4365
+        },
+        "items": [
+            "Stationery",
+            "Toys",
+            "Books"
+        ]
+    },
+    {
+        "id": 5,
+        "address": "Ring Road No. 2, Bhilai-Bilaspur Bypass, Bhanpuri, Raipur, Chhattisgarh",
+        "coordinates": {
+            "latitude": 21.2514,
+            "longitude": 81.6296
+        },
+        "items": [
+            "Pharmaceuticals",
+            "Personal Care",
+            "Health Supplements"
+        ]
+    },
+    {
+        "id": 6,
+        "address": "Khasra No 425, 426 & 428, Toposherkhania Akhnoor Road, Jammu, Jammu & Kashmir",
+        "coordinates": {
+            "latitude": 32.7266,
+            "longitude": 74.857
+        },
+        "items": [
+            "Footwear",
+            "Accessories",
+            "Bags"
+        ]
+    },
+    {
+        "id": 7,
+        "address": "Near MR 10, Dewas Bypass Road, Opp. Malwa Institute Of Technology, Indore, Madhya Pradesh",
+        "coordinates": {
+            "latitude": 22.7196,
+            "longitude": 75.8577
+        },
+        "items": [
+            "Sports Equipment",
+            "Outdoor Gear",
+            "Fitness"
+        ]
+    },
+    {
+        "id": 8,
+        "address": "Survey No. 64/2, Opp Mohini Hotel, Beside Hyundai Showroom, Badnera Road, Amravati, Maharashtra",
+        "coordinates": {
+            "latitude": 20.9374,
+            "longitude": 77.7796
+        },
+        "items": [
+            "Automotive Parts",
+            "Tools",
+            "Hardware"
+        ]
+    },
+    {
+        "id": 9,
+        "address": "Plot No. 75/26 - 75/14, AIPL Ambuja Dream City Manawala, GT Jalandhar Highway Road, Amritsar, Punjab",
+        "coordinates": {
+            "latitude": 31.634,
+            "longitude": 74.8723
+        },
+        "items": [
+            "Baby Products",
+            "Maternity",
+            "Toys"
+        ]
+    },
+    {
+        "id": 10,
+        "address": "E-Commercial Belt, Sushant Golf City, Shaheed Path, Sultanpur Road, Lucknow, Uttar Pradesh",
+        "coordinates": {
+            "latitude": 26.8467,
+            "longitude": 80.9462
+        },
+        "items": [
+            "Pet Supplies",
+            "Cleaning",
+            "Household"
+        ]
+    }
+]
