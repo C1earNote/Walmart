@@ -44,7 +44,6 @@ const SupplierMap = ({ suppliers }) => {
       center={[22.5937, 78.9629]}
       zoom={5.2}
       className="justmap"
-      style={{ borderRadius: "20px", overflow: "hidden", boxShadow: "0 4px 24px rgba(0,0,0,0.12)" }}
       scrollWheelZoom={false}
     >
       <TileLayer
@@ -68,11 +67,11 @@ const SupplierMap = ({ suppliers }) => {
               <span>Sentiment: {supplier.overall_sentiment}</span><br />
               <span>Polarity: {supplier.average_polarity_score?.toFixed(2)}</span>
               {supplier.articles && supplier.articles.length > 0 && (
-                <div style={{ marginTop: 8 }}>
+                <div>
                   <strong>Headlines:</strong>
-                  <ul style={{ paddingLeft: 16 }}>
+                  <ul>
                     {supplier.articles.map((a, j) => (
-                      <li key={j} style={{ marginBottom: 4 }}>
+                      <li key={j}>
                         <a href={a.url} target="_blank" rel="noopener noreferrer">{a.title}</a>
                       </li>
                     ))}

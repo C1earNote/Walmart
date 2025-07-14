@@ -1,0 +1,28 @@
+{
+  "demand_metrics": [
+    {
+      "region_name": "Maharashtra",
+      "item": "Rice",
+      "demand": 1200,
+      "period": "Q2 2025"
+    },
+    {
+      "region_name": "Karnataka",
+      "item": "Wheat",
+      "demand": 900,
+      "period": "Q2 2025"
+    },
+    {
+      "region_name": "Tamil Nadu",
+      "item": "Sugar",
+      "demand": 700,
+      "period": "Q2 2025"
+    },
+    {
+      "region_name": "West Bengal",
+      "item": "Tea",
+      "demand": 500,
+      "period": "Q2 2025"
+    }
+  ]
+}

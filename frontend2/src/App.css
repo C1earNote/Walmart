@@ -5,6 +5,11 @@
   text-align: center;
 }
 
+html, body, #root {
+  height: 100%;
+  min-height: 100vh;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -30,9 +35,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 533px;
-  width: 500px;
-  border: 2px solid #565555;
+  height: 611px;
+  width: 75vw;
+  flex: 1 1 0;
+  min-width: 0;
+  height: 100%;
+  max-width: 900px;
+  margin: 0 0 0 0;
+  border-radius: 0 12px 12px 0;
+  box-shadow: 0 4px 24px 0 rgba(41, 41, 41, 0.09);
+  background: #fffbe7;
+  z-index: 1;
 }
 
 @keyframes logo-spin {
@@ -51,48 +64,72 @@
 }
 
 .main-layout {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  align-items: center;;
+  width: 100vw; 
+  max-width: none;
+  height: calc(100vh - 4.5rem);
   display: flex;
+  align-items: stretch;
   justify-content: center;
-  align-items: flex-start;
+  box-sizing: border-box;
   gap: 2rem;
-  margin-top: 2rem;
+  background: linear-gradient(to bottom, #ffe066 0 50%, #fff 50% 100%);
+  overflow: auto;
+  margin: 0;
 }
 
 .sidebar-container {
+  flex: 0 0 320px;
+  height: 94%;
+  margin: 0;
+  box-shadow: 0 4px 24px 0 rgba(41, 41, 41, 0.09);
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
-  min-width: 260px;
-  background: rgba(255,255,255,0.85);
-  border-radius: 16px;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
-  padding: 1.5rem 1rem;
+  justify-content: center;
+  padding: 1rem;
+  background: #fff;
+  border-radius: 12px 0 0 12px;
+  border-right: none;
+  border-top: 1.5px solid #ffe066;
+  border-bottom: 1.5px solid #ffe066;
+  border-left: 1.5px solid #ffe066;
 }
 
 .sidebar-title {
-  margin: 0 0 0.5rem 0;
-  font-size: 1.4rem;
-  color: #222;
-  letter-spacing: 0.5px;
-  text-align: left;
+  margin: 0 0 1.2rem 0;
+  font-size: 1.5rem;
+  color: #1976d2;
+  letter-spacing: 1px;
+  text-align: center;
+  font-weight: 700;
+  padding-bottom: 0.5rem;
+  background: #fff;
 }
 
 .sidebar-buttons {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 1.2rem;
+  margin-bottom: 1.2rem;
 }
 
 .sidebar-btn {
-  padding: 0.5em 1.5em;
+  padding: 0.7em 1.5em;
   border-radius: 8px;
   border: none;
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 1.05rem;
   cursor: pointer;
   margin-bottom: 0.2rem;
-  transition: background 0.2s;
+  transition: background 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px 0 rgba(41, 41, 41, 0.07);
+  letter-spacing: 0.5px;
 }
+
 .sidebar-btn.add {
   background: #1976d2;
   color: #fff;
@@ -103,20 +140,27 @@
 }
 .sidebar-btn.add:hover {
   background: #1565c0;
+  box-shadow: 0 4px 16px 0 #1976d233;
 }
 .sidebar-btn.remove:hover {
   background: #b71c1c;
+  box-shadow: 0 4px 16px 0 #d32f2f33;
 }
 
 .sidebar-list {
   margin-top: 1.5rem;
   max-height: 350px;
   overflow-y: auto;
+  border: 1.4px solid #ffe06644;
+  padding: 1rem 0.5rem 1rem 0.5rem;
+  border-radius: 8px;
+  background: #fff;
 }
 .sidebar-list h3 {
   margin: 0 0 0.5rem 0;
   font-size: 1.1rem;
-  color: #222;
+  color: #1976d2;
+  font-weight: 600;
 }
 .sidebar-list ul {
   list-style: none;
@@ -124,16 +168,200 @@
   margin: 0;
 }
 .supplier-list-item {
-  margin-bottom: 8px;
-  padding: 0.5em 0.5em;
-  border-radius: 6px;
-  background: #f5f6fa;
-  font-size: 0.98rem;
+  margin-bottom: 10px;
+  padding: 0.7em 0.7em;
+  border-radius: 8px;
+  background: #fffbe7;
+  font-size: 1rem;
   color: #333;
+  box-shadow: 0 1px 8px 0 rgba(41, 41, 41, 0.06);
+  transition: background 0.2s;
 }
 .supplier-list-item span {
   color: #666;
-  font-size: 0.92em;
+  font-size: 0.95em;
+}
+.supplier-list-item:hover {
+  background: #ffe06633;
+}
+
+.navbar {
+  width: 97vw;
+  min-width: 320px;
+  background: #041f41;
+  box-shadow: 0 4px 24px 0 rgba(41, 41, 41, 0.09);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.1rem 2.5rem 1.1rem 1.5rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  height: 2.3rem;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+.navbar-logo img {
+  height: 2.2rem;
+  width: 2.2rem;
+}
+.navbar-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+}
+.navbar-links {
+  display: flex;
+  gap: 0.5rem;
+}
+.navbar-link {
+  color: #ffffff;
+  font-size: 1.08rem;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 0.2em 0.7em;
+  transition: background 0.18s;
+  position: relative;
+  overflow: hidden;
+}
+.navbar-link::after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0; bottom: 0;
+  width: 0%;
+  height: 2px;
+  background: #ffe066;
+  transition: width 0.3s;
+}
+
+.navbar-link:hover::after {
+  width: 100%;
+}
+
+/* Modal styles for Show All Suppliers */
+.modal-overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.35);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal-content {
+  background: #fffbe7;
+  border-radius: 15px;
+  padding: 2rem 2.5rem 1.5rem 2.5rem;
+  box-shadow: 0 8px 32px 0 rgba(41, 41, 41, 0.13);
+  max-width: 480px;
+  width: 100%;
+  max-height: 80vh;
+  overflow-y: auto;
+  position: relative;
+  border: 1.5px solid #ffe066;
+}
+
+.modal-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: #e6b800;
+  cursor: pointer;
+}
+.modal-supplier-list {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0 0 0;
+}
+.modal-supplier-item {
+  background: #fffbe7;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 15px;
+  box-shadow: 0 1px 8px 0 rgba(41, 41, 41, 0.06);
+  text-align: left;
+  border-left: 3px solid #ffe066;
+}
+
+.supplier-detail-modal {
+  max-width: 420px;
+  min-width: 260px;
+  background: #fff;
+  border: 2px solid #1976d2;
+  box-shadow: 0 8px 32px 0 rgba(25, 118, 210, 0.13);
+}
+.supplier-detail-modal h2 {
+  color: #1976d2;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.supplier-detail-fields {
+  text-align: left;
+  font-size: 1.08rem;
+  color: #222;
+  margin-top: 0.5rem;
+}
+.supplier-detail-fields p {
+  margin: 0.5em 0;
+  line-height: 1.5;
+}
+
+/* Add Supplier Form styles */
+.add-supplier-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+  margin-top: 1rem;
+}
+.add-supplier-form label {
+  font-weight: 600;
+  color: #000000;
+  margin-bottom: 0.2rem;
+  display: block;
+  text-align: left;
+}
+.add-supplier-form input {
+  width: 100%;
+  padding: 0.6em 1em;
+  border: 1.5px solid #000000;
+  border-radius: 7px;
+  font-size: 1.05rem;
+  margin-top: 0.2rem;
+  background: #fffbe7;
+  transition: border 0.2s, box-shadow 0.2s;
+}
+.add-supplier-form input:focus {
+  border: 1.5px solid #1976d2;
+  outline: none;
+  box-shadow: 0 2px 8px #1976d233;
+}
+.add-supplier-form button[type="submit"] {
+  align-self: flex-end;
+  min-width: 120px;
+  font-size: 1.08rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  background: #1976d2;
+  color: #fff;
+  box-shadow: 0 2px 8px 0 rgba(41, 41, 41, 0.07);
+  border: none;
+  border-radius: 8px;
+  padding: 0.7em 1.5em;
+  margin-top: 1.2rem;
+  transition: background 0.2s, box-shadow 0.2s;
+}
+.add-supplier-form button[type="submit"]:hover {
+  background: #1565c0;
 }
 
 
