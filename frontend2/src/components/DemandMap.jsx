@@ -26,9 +26,9 @@ const DemandMap = ({ demands }) => {
       return;
     }
     const withCoords = demands.map((demand) => {
-      const coords = regionCoords[demand.region_name?.trim().toLowerCase()];
+      const coords = regionCoords[demand.address?.trim().toLowerCase()];
       if (!coords) {
-        console.warn(`No coordinates found for region: ${demand.region_name}`);
+        console.warn(`No coordinates found for region: ${demand.address}`);
         return null;
       }
       return { ...demand, coords };
@@ -55,12 +55,19 @@ const DemandMap = ({ demands }) => {
           iconAnchor: [9, 9],
         });
         return (
-          <Marker key={i} position={demand.coords} icon={icon}>
+          <Marker key={i} position={demand.coords || [demand.coordinates.latitude, demand.coordinates.longitude]} icon={icon}>
             <Popup>
-              <strong>{demand.region_name}</strong><br />
-              <span>Item: {demand.item}</span><br />
-              <span>Demand: {demand.demand}</span><br />
-              <span>Period: {demand.period}</span>
+              <strong>{demand.address}</strong><br />
+              <span>Sentiment: {demand.overall_location_sentiment}</span><br />
+              <span>Avg Polarity: {demand.average_polarity_score?.toFixed(2)}</span><br />
+              <b>Demand Predictions:</b>
+              <ul>
+                {demand.demand_predictions.map((pred, idx) => (
+                  <li key={idx}>
+                    <b>{pred.product_category}</b> - {pred.sentiment}, {pred.demand_trend}, Confidence: {pred.confidence}.
+                  </li>
+                ))}
+              </ul>
             </Popup>
           </Marker>
         );

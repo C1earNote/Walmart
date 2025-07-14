@@ -42,7 +42,6 @@ html, body, #root {
   height: 100%;
   max-width: 900px;
   margin: 0 0 0 0;
-  border-radius: 0 12px 12px 0;
   box-shadow: 0 4px 24px 0 rgba(41, 41, 41, 0.09);
   background: #fffbe7;
   z-index: 1;
@@ -68,35 +67,27 @@ html, body, #root {
   left: 0;
   right: 0;
   bottom: 0;
-  align-items: center;;
-  width: 100vw; 
+  align-items: center;
   max-width: none;
   height: calc(100vh - 4.5rem);
   display: flex;
   align-items: stretch;
   justify-content: center;
   box-sizing: border-box;
-  gap: 2rem;
   background: linear-gradient(to bottom, #ffe066 0 50%, #fff 50% 100%);
   overflow: auto;
   margin: 0;
 }
 
 .sidebar-container {
-  flex: 0 0 320px;
-  height: 94%;
-  margin: 0;
+  height: 95%;
   box-shadow: 0 4px 24px 0 rgba(41, 41, 41, 0.09);
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   padding: 1rem;
   background: #fff;
-  border-radius: 12px 0 0 12px;
-  border-right: none;
-  border-top: 1.5px solid #ffe066;
-  border-bottom: 1.5px solid #ffe066;
-  border-left: 1.5px solid #ffe066;
+  min-width: 260px;
 }
 
 .sidebar-title {
@@ -108,6 +99,7 @@ html, body, #root {
   font-weight: 700;
   padding-bottom: 0.5rem;
   background: #fff;
+  width: 100%;
 }
 
 .sidebar-buttons {
@@ -149,12 +141,12 @@ html, body, #root {
 
 .sidebar-list {
   margin-top: 1.5rem;
-  max-height: 350px;
+  max-height: 500px;
   overflow-y: auto;
   border: 1.4px solid #ffe06644;
   padding: 1rem 0.5rem 1rem 0.5rem;
-  border-radius: 8px;
   background: #fff;
+  width: 99%;
 }
 .sidebar-list h3 {
   margin: 0 0 0.5rem 0;
@@ -176,6 +168,7 @@ html, body, #root {
   color: #333;
   box-shadow: 0 1px 8px 0 rgba(41, 41, 41, 0.06);
   transition: background 0.2s;
+  width: 90%;
 }
 .supplier-list-item span {
   color: #666;
@@ -186,25 +179,26 @@ html, body, #root {
 }
 
 .navbar {
-  width: 97vw;
+  width: 100vw;
   min-width: 320px;
   background: #041f41;
   box-shadow: 0 4px 24px 0 rgba(41, 41, 41, 0.09);
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1.1rem 2.5rem 1.1rem 1.5rem;
+  padding: 0.7rem 2.5rem 0.7rem 1.5rem;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 100;
-  height: 2.3rem;
+  height: 3.5rem;
 }
 
 .navbar-logo {
   display: flex;
   align-items: center;
   gap: 0.7rem;
+  height: 100%;
 }
 .navbar-logo img {
   height: 2.2rem;
@@ -218,17 +212,31 @@ html, body, #root {
 }
 .navbar-links {
   display: flex;
-  gap: 0.5rem;
+  align-items: left;
+  gap: 1.2rem;
+  height: 100%;
+  margin-right: 50px;
 }
 .navbar-link {
   color: #ffffff;
   font-size: 1.08rem;
   font-weight: 500;
   text-decoration: none;
-  padding: 0.2em 0.7em;
+  padding: 0.4em 1.1em;
+  background: none;
+  border: none;
+  border-radius: 6px;
   transition: background 0.18s;
   position: relative;
   overflow: hidden;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  height: 2.3rem;
+}
+.navbar-link:focus, .navbar-link:hover {
+  background: #1976d2;
+  color: #ffe066;
 }
 .navbar-link::after {
   content: '';
@@ -240,9 +248,23 @@ html, body, #root {
   background: #ffe066;
   transition: width 0.3s;
 }
-
 .navbar-link:hover::after {
   width: 100%;
+}
+
+@media (max-width: 700px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    padding: 1rem 1rem 0.5rem 1rem;
+  }
+  .navbar-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+    align-items: flex-start;
+  }
 }
 
 /* Modal styles for Show All Suppliers */
@@ -266,6 +288,9 @@ html, body, #root {
   overflow-y: auto;
   position: relative;
   border: 1.5px solid #ffe066;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .modal-close {
@@ -282,7 +307,9 @@ html, body, #root {
   list-style: none;
   padding: 0;
   margin: 1.5rem 0 0 0;
+  width: 100%;
 }
+
 .modal-supplier-item {
   background: #fffbe7;
   margin-bottom: 1rem;
@@ -291,6 +318,7 @@ html, body, #root {
   box-shadow: 0 1px 8px 0 rgba(41, 41, 41, 0.06);
   text-align: left;
   border-left: 3px solid #ffe066;
+  width: 100%;
 }
 
 .supplier-detail-modal {

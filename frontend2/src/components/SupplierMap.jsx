@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
-import { getSentimentColor } from "../utils/sentimentColor";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
+import { getSentimentColor } from "../utils/sentimentColor";
 
 const SupplierMap = ({ suppliers }) => {
   const [stateCoords, setStateCoords] = useState({});
@@ -51,7 +51,20 @@ const SupplierMap = ({ suppliers }) => {
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
       {readySuppliers.map((supplier, i) => {
-        const color = getSentimentColor(supplier.overall_sentiment, supplier.average_polarity_score);
+        let color;
+        if (supplier.risk_level) {
+          if (typeof supplier.risk_level === 'string') {
+            const risk = supplier.risk_level.toLowerCase();
+            if (risk === 'high') color = 'red';
+            else if (risk === 'medium') color = 'orange';
+            else if (risk === 'low') color = 'green';
+            else color = '#1976d2';
+          } else {
+            color = '#1976d2';
+          }
+        } else {
+          color = getSentimentColor(supplier.overall_sentiment, supplier.average_polarity_score);
+        }
         const icon = new L.DivIcon({
           className: "custom-icon",
           html: `<div style="background:${color};width:18px;height:18px;border-radius:50%;border:2px solid white;"></div>`,
@@ -60,24 +73,13 @@ const SupplierMap = ({ suppliers }) => {
         });
         return (
           <Marker key={i} position={supplier.coords} icon={icon}>
-            <Popup eventHandlers={{ add: () => console.log('Popup for', supplier.supplier_name, 'articles:', supplier.articles) }}>
-              <strong>{supplier.supplier_name}</strong><br />
-              <span>{supplier.city}, {supplier.state}</span><br />
-              <span>{supplier.category}</span><br />
-              <span>Sentiment: {supplier.overall_sentiment}</span><br />
-              <span>Polarity: {supplier.average_polarity_score?.toFixed(2)}</span>
-              {supplier.articles && supplier.articles.length > 0 && (
-                <div>
-                  <strong>Headlines:</strong>
-                  <ul>
-                    {supplier.articles.map((a, j) => (
-                      <li key={j}>
-                        <a href={a.url} target="_blank" rel="noopener noreferrer">{a.title}</a>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              )}
+            <Popup>
+              <strong>{supplier.supplier_name || supplier.supplier}</strong><br />
+              <span>{supplier.state}</span><br />
+              <span>{supplier.category || supplier.category_name}</span><br />
+              {supplier.issue && <><span><b>Issue:</b> {supplier.issue}</span><br /></>}
+              {supplier.risk_level && <><span><b>Risk Level:</b> {supplier.risk_level}</span><br /></>}
+              {supplier.reason && <><span><b>Reason:</b> {supplier.reason}</span><br /></>}
             </Popup>
           </Marker>
         );

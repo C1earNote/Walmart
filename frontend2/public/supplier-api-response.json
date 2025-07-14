@@ -1,0 +1,200 @@
+[
+  {
+    "supplier": "Welspun India Ltd",
+    "issue": "Sustainability standards and road asset acquisition",
+    "risk_level": "Medium",
+    "state": "Gujarat",
+    "reason": "Welspun India has recently faced criticism regarding sustainability standards in global trade. Additionally, the company has announced the acquisition of road assets from Actis. While this may not directly impact their operations, it is important to monitor any potential disruptions in the supply chain due to changes in ownership or management of key infrastructure.",
+    "items": [
+      "Textiles",
+      "Home Furnishings"
+    ]
+  },
+  {
+    "supplier": "LT Foods",
+    "issue": "Biryani boom drives surge in basmati rice demand across India",
+    "risk_level": "medium",
+    "state": "Haryana",
+    "reason": "LT Foods is a supplier of basmati rice and may be impacted by the surge in demand due to the biryani boom. The company's operations and supply chain could be affected by increased demand for basmati rice, which may lead to disruptions in the market. Additionally, the company's risk level is medium due to the positive sentiment associated with the biryani boom and the positive polarity score of the article.",
+    "items": [
+      "Basmati Rice",
+      "Packaged Foods"
+    ]
+  },
+  {
+    "supplier": "Aniket Metals Moradabad",
+    "issue": "Strike at Aniket Metals Moradabad",
+    "risk_level": "high",
+    "state": "Uttar Pradesh",
+    "reason": "A strike has been declared at Aniket Metals Moradabad due to a dispute over working conditions and wages. This could lead to disruptions in the supply chain as the company is a major supplier of steel products. The overcast clouds and moderate temperature in Uttar Pradesh may not directly affect the operations, but the strike could cause delays in transportation and delivery of goods.",
+    "items": [
+      "Steel Products",
+      "Metal Handicrafts"
+    ]
+  },
+  {
+    "supplier": "Sambhav Group",
+    "issue": "Tax evasion",
+    "risk_level": "high",
+    "state": "Maharashtra",
+    "reason": "The supplier, Sambhav Group, is facing a high risk due to a recent tax evasion case. The Indian Tax Department conducted searches at the company's offices and those of real estate brokers. This could potentially impact their operations and reputation, leading to supply chain disruptions.",
+    "items": [
+      "Real Estate",
+      "Construction Materials"
+    ]
+  },
+  {
+    "supplier": "Shree Renuka Sugars Ltd.",
+    "issue": "Strike at Shree Renuka Sugars Ltd. in Karnataka",
+    "risk_level": "high",
+    "state": "Karnataka",
+    "reason": "The ongoing strike at Shree Renuka Sugars Ltd. in Karnataka is likely to disrupt the supply chain for sugar. The strike is due to demands for better wages and working conditions. The company has already reported a decline in production due to the strike. The overcast clouds, high humidity, and low wind speed in the region may further exacerbate the situation by making it difficult for trucks to transport goods.",
+    "items": [
+      "Sugar",
+      "Ethanol"
+    ]
+  },
+  {
+    "supplier": "Global Green Company",
+    "issue": "BP dropped its green pledges and turned back to oil. Now the price of crude has collapsed",
+    "risk_level": "high",
+    "state": "Karnataka",
+    "reason": "The recent news reports indicate that BP has turned away from its green initiatives and is now focusing on oil production. This shift in focus could lead to a decline in the company's environmental performance and potentially impact its reputation. Additionally, the collapse of the crude oil price could affect the company's financial stability and profitability. As a result, there is a high risk of disruptions in the supply chain due to operational challenges and potential legal actions.",
+    "items": [
+      "Processed Vegetables",
+      "Pickles"
+    ]
+  },
+  {
+    "supplier": "Hero Ecotech Ltd.",
+    "issue": "Financial trouble and operational disruptions",
+    "risk_level": "high",
+    "state": "Punjab",
+    "reason": "Hero Ecotech Ltd. is facing financial difficulties, which may lead to operational disruptions. Additionally, the overcast clouds, high humidity, and moderate wind speed in Punjab could impact transportation and logistics, further exacerbating the situation.",
+    "items": [
+      "Bicycles",
+      "Bicycle Parts"
+    ]
+  },
+  {
+    "supplier": "Mrs Bectors Food Specialities Ltd.",
+    "issue": "Weather disruption due to overcast clouds and extreme heat in Punjab",
+    "risk_level": "medium",
+    "state": "Punjab",
+    "reason": "The current weather conditions in Punjab, with overcast clouds and extreme heat, may affect the transportation and delivery of goods to customers. This could lead to delays or disruptions in the supply chain. It is recommended to closely monitor the weather conditions and take necessary precautions to minimize any potential impacts.",
+    "items": [
+      "Biscuits",
+      "Bakery Products"
+    ]
+  },
+  {
+    "supplier": "Jayanti Spices",
+    "issue": "Strike at Jayanti Spices factory in Karnataka",
+    "risk_level": "high",
+    "state": "Karnataka",
+    "reason": "A strike at the Jayanti Spices factory in Karnataka has caused disruptions in production and supply chain operations. The strike is due to a dispute over working conditions and wages. The company has not yet provided an update on when the strike will end, which could lead to further delays in delivery. Additionally, the overcast weather conditions in Karnataka may further complicate transportation and logistics.",
+    "items": [
+      "Spices",
+      "Seasonings"
+    ]
+  },
+  {
+    "supplier": "HyFun Foods Gujarat",
+    "issue": "Weather disruptions and potential supply chain impacts",
+    "risk_level": "medium",
+    "state": "Gujarat",
+    "reason": "Overcast clouds, high temperature, and potential supply chain disruptions due to transportation challenges.",
+    "items": [
+      "Frozen Foods",
+      "Potato Products"
+    ]
+  },
+  {
+    "supplier": "Dixon Technologies",
+    "issue": "Expansion and growth plans",
+    "risk_level": "Low",
+    "state": "Uttar Pradesh",
+    "reason": "Dixon Technologies is expanding its operations and exploring new growth drivers. The company has recently announced plans to double its revenue as India ramps up electronics production. Additionally, the company is exploring beyond mobile PLI (Production Linked Incentives) to find the next growth driver. Dixon Technologies has also made several acquisitions, collaborations, and capacity expansions. The company's Q3 results show that it has been able to execute on its growth plans. The weather in Uttar Pradesh is currently overcast with a temperature of 32.54°C, humidity of 56%, and wind speed of 6.79 mph. There are no immediate weather-related risks to Dixon Technologies' operations.",
+    "items": [
+      "Consumer Electronics",
+      "Home Appliances"
+    ]
+  },
+  {
+    "supplier": "MSME garment exporters",
+    "issue": "Financial trouble and operational disruptions due to COVID-19 pandemic",
+    "risk_level": "high",
+    "state": "Tamil Nadu",
+    "reason": "The MSME garment exporters in Tamil Nadu are facing financial difficulties due to the COVID-19 pandemic. The state has been under lockdown since April 2020, leading to disruptions in supply chains and reduced demand for garments. Additionally, extreme heat and rainfall in the region have further impacted operations. The situation is likely to worsen as the second wave of COVID-19 hits India.",
+    "items": [
+      "Garments",
+      "Textiles"
+    ]
+  },
+  {
+    "supplier": "OEM manufacturers",
+    "issue": "Air India crash probe and Tata's C-295 Aircraft Manufacturing Hub",
+    "risk_level": "Medium",
+    "state": "Maharashtra",
+    "reason": "The recent Air India crash probe may impact the reputation and operations of OEM manufacturers. Additionally, Tata's C-295 Aircraft Manufacturing Hub in Gujarat could transform India's defense and supply chain, but it's unclear how this will affect OEM manufacturers specifically.",
+    "items": [
+      "Automotive Parts",
+      "Machinery"
+    ]
+  },
+  {
+    "supplier": "Adani Wilmar Ltd",
+    "issue": "Adani Wilmar, Adani Power, Adani Total Gas other group stocks gain up to 10% in the morning trades.",
+    "risk_level": "Low",
+    "state": "Gujarat",
+    "reason": "The recent stock market performance of Adani Wilmar and other group companies indicates a positive outlook. However, it's important to note that stock prices can be volatile and influenced by various factors.",
+    "items": [
+      "Edible Oils",
+      "Food Products"
+    ]
+  },
+  {
+    "supplier": "Vedanta Aluminium Ltd",
+    "issue": "Vedanta share price pares intraday loss after getting shareholders nod for demerger",
+    "risk_level": "Medium",
+    "state": "Odisha",
+    "reason": "The news reports suggest that Vedanta Aluminium Ltd is facing issues related to its demerger, which may impact its share price. Additionally, the company is located in Odisha, which is prone to extreme weather conditions like floods and storms. The current weather conditions in Odisha are overcast clouds with a temperature of 28.46°C, humidity of 81%, and wind speed of 2.99 mph. These weather conditions may affect the transportation and operations of the company, leading to further disruptions.",
+    "items": [
+      "Aluminium",
+      "Metals"
+    ]
+  },
+  {
+    "supplier": "Bajaj Auto Ltd",
+    "issue": "Tata Motors eyes rare earth magnet sources, has enough stocks: Chandrasekaran",
+    "risk_level": "high",
+    "state": "Maharashtra",
+    "reason": "Bajaj Auto Ltd is located in Maharashtra, which is affected by the ongoing trade tensions between India and China. This could lead to supply chain disruptions for Bajaj Auto Ltd, as they rely on rare earth magnets sourced from China. Additionally, the company's stock price has been negatively impacted by the news, indicating potential financial troubles.",
+    "items": [
+      "Motorcycles",
+      "Auto Parts"
+    ]
+  },
+  {
+    "supplier": "Balrampur Chini Mills",
+    "issue": "Historic investment in India's first biopolymer plant",
+    "risk_level": "Low",
+    "state": "Uttar Pradesh",
+    "reason": "The supplier has recently received a historic investment for its first biopolymer plant, which is expected to boost the company's growth and expand its product offerings. There are no immediate risks or disruptions associated with this news.",
+    "items": [
+      "Sugar",
+      "Biopolymers"
+    ]
+  },
+  {
+    "supplier": "Keventer Agro",
+    "issue": "IPO approval and potential disruptions",
+    "risk_level": "Medium",
+    "state": "West Bengal",
+    "reason": "Recent news reports suggest that Keventer Agro, along with Ixigo and Sahajanand Medical Technologies, have received Sebi's approval to float IPOs. However, this could potentially lead to disruptions in their operations due to increased focus on fundraising efforts. Additionally, the ongoing light rain in West Bengal may impact transportation and logistics, further complicating matters.",
+    "items": [
+      "Beverages",
+      "Dairy Products"
+    ]
+  }
+]

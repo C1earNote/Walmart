@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 from app import router  
 from storage_analysis import router as storage_router
 
@@ -6,6 +7,15 @@ app = FastAPI(
     title="Supplier Risk Analyzer",
     description="API for analyzing supplier risks through news sentiment analysis",
     version="1.0.0"
+)
+
+# Add CORS middleware
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:5173"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 app.include_router(router, prefix="/api", tags=["Suppliers"])

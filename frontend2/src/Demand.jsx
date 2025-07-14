@@ -11,7 +11,7 @@ function Navbar({ onShowAllDemands }) {
       </div>
       <div className="navbar-links">
         <Link to="/" className="navbar-link">Go to Supplier Page</Link>
-        <button className="navbar-link" onClick={onShowAllDemands} style={{background:'none',border:'none',cursor:'pointer',padding:0}}>Show all demand</button>
+        <a href="#" className="navbar-link" onClick={e => { e.preventDefault(); onShowAllDemands(); }}>Show all demand</a>
       </div>
     </nav>
   );
@@ -23,9 +23,9 @@ function Demand() {
   const [selectedDemand, setSelectedDemand] = useState(null);
 
   useEffect(() => {
-    fetch('/demand-sample.json')
+    fetch('/demand-api-response.json')
       .then(res => res.json())
-      .then(data => setDemands(data.demand_metrics))
+      .then(data => setDemands(data))
       .catch(() => setDemands([]));
   }, []);
 
@@ -41,14 +41,13 @@ function Demand() {
         <div className="modal-overlay" onClick={handleCloseModal}>
           <div className="modal-content" onClick={e => e.stopPropagation()}>
             <button className="modal-close" onClick={handleCloseModal}>&times;</button>
-            <h2>All Demand Metrics</h2>
+            <h2>All Demand Locations</h2>
             <ul className="modal-supplier-list">
               {demands.map((d, i) => (
                 <li key={i} className="modal-supplier-item" onClick={() => handleDemandClick(d)} style={{cursor:'pointer'}}>
-                  <strong>{d.region_name}</strong><br/>
-                  <span>Item: {d.item}</span><br/>
-                  <span>Demand: {d.demand}</span><br/>
-                  <span>Period: {d.period}</span>
+                  <strong>{d.address}</strong><br/>
+                  <span>Sentiment: {d.overall_location_sentiment}</span><br/>
+                  <span>Avg Polarity: {d.average_polarity_score?.toFixed(2)}</span>
                 </li>
               ))}
             </ul>
@@ -59,12 +58,19 @@ function Demand() {
         <div className="modal-overlay" onClick={handleCloseDemandDetail}>
           <div className="modal-content supplier-detail-modal" onClick={e => e.stopPropagation()}>
             <button className="modal-close" onClick={handleCloseDemandDetail}>&times;</button>
-            <h2>Demand Details</h2>
+            <h2>Demand Location Details</h2>
             <div className="supplier-detail-fields">
-              <p><b>Region:</b> {selectedDemand.region_name}</p>
-              <p><b>Item:</b> {selectedDemand.item}</p>
-              <p><b>Demand:</b> {selectedDemand.demand}</p>
-              <p><b>Period:</b> {selectedDemand.period}</p>
+              <p><b>Address:</b> {selectedDemand.address}</p>
+              <p><b>Sentiment:</b> {selectedDemand.overall_location_sentiment}</p>
+              <p><b>Avg Polarity:</b> {selectedDemand.average_polarity_score?.toFixed(2)}</p>
+              <p><b>Demand Predictions:</b></p>
+              <ul>
+                {selectedDemand.demand_predictions.map((pred, idx) => (
+                  <li key={idx}>
+                    <b>{pred.product_category}</b> - {pred.sentiment}, {pred.demand_trend}, Confidence: {pred.confidence}, News: {pred.recent_news_count}
+                  </li>
+                ))}
+              </ul>
             </div>
           </div>
         </div>
@@ -74,12 +80,12 @@ function Demand() {
         <div className="sidebar-container">
           <h2 className="sidebar-title">Demand Management</h2>
           <div className="sidebar-list">
-            <h3>Current Demand Metrics</h3>
+            <h3>Current Demand Locations</h3>
             <ul>
               {demands.map((d, i) => (
                 <li key={i} className="supplier-list-item" onClick={() => handleDemandClick(d)} style={{cursor:'pointer'}}>
-                  <strong>{d.region_name}</strong> <br />
-                  <span>Item: {d.item}</span>
+                  <strong>{d.address}</strong> <br />
+                  <span>Sentiment: {d.overall_location_sentiment}</span>
                 </li>
               ))}
             </ul>

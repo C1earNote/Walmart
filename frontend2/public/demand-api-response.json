@@ -1,0 +1,372 @@
+[
+  {
+    "location_id": 1,
+    "address": "Haryana",
+    "coordinates": {
+      "latitude": 28.4595,
+      "longitude": 77.0266
+    },
+    "demand_predictions": [
+      {
+        "product_category": "Electronics",
+        "sentiment": "Positive",
+        "polarity_score": 0.3324262698491414,
+        "demand_trend": "Increasing",
+        "confidence": "Medium",
+        "recent_news_count": 3
+      },
+      {
+        "product_category": "Home Appliances",
+        "sentiment": "Positive",
+        "polarity_score": 0.36130571365356445,
+        "demand_trend": "Increasing",
+        "confidence": "Medium",
+        "recent_news_count": 3
+      },
+      {
+        "product_category": "Clothing",
+        "sentiment": "Negative",
+        "polarity_score": -0.9925232529640198,
+        "demand_trend": "Decreasing",
+        "confidence": "High",
+        "recent_news_count": 3
+      }
+    ],
+    "overall_location_sentiment": "Neutral",
+    "average_polarity_score": -0.09959708982043797,
+    "analysis_timestamp": "2025-07-14T12:47:25.970320Z"
+  },
+  {
+    "location_id": 2,
+    "address": "Uttar Pradesh",
+    "coordinates": {
+      "latitude": 27.1767,
+      "longitude": 78.0081
+    },
+    "demand_predictions": [
+      {
+        "product_category": "Groceries",
+        "sentiment": "Negative",
+        "polarity_score": -0.2969564398129781,
+        "demand_trend": "Decreasing",
+        "confidence": "Medium",
+        "recent_news_count": 3
+      },
+      {
+        "product_category": "Beverages",
+        "sentiment": "Positive",
+        "polarity_score": 0.36362330118815106,
+        "demand_trend": "Increasing",
+        "confidence": "Medium",
+        "recent_news_count": 3
+      },
+      {
+        "product_category": "Snacks",
+        "sentiment": "Positive",
+        "polarity_score": 0.9978297154108683,
+        "demand_trend": "Increasing",
+        "confidence": "High",
+        "recent_news_count": 3
+      }
+    ],
+    "overall_location_sentiment": "Positive",
+    "average_polarity_score": 0.35483219226201373,
+    "analysis_timestamp": "2025-07-14T12:47:31.994386Z"
+  },
+  {
+    "location_id": 3,
+    "address": "Madhya Pradesh",
+    "coordinates": {
+      "latitude": 23.2599,
+      "longitude": 77.4126
+    },
+    "demand_predictions": [
+      {
+        "product_category": "Furniture",
+        "sentiment": "Positive",
+        "polarity_score": 0.9677011171976725,
+        "demand_trend": "Increasing",
+        "confidence": "High",
+        "recent_news_count": 3
+      },
+      {
+        "product_category": "Kitchenware",
+        "sentiment": "Negative",
+        "polarity_score": -0.34569289286931354,
+        "demand_trend": "Decreasing",
+        "confidence": "Medium",
+        "recent_news_count": 3
+      },
+      {
+        "product_category": "Decor",
+        "sentiment": "Positive",
+        "polarity_score": 0.33969442049662274,
+        "demand_trend": "Increasing",
+        "confidence": "Medium",
+        "recent_news_count": 3
+      }
+    ],
+    "overall_location_sentiment": "Positive",
+    "average_polarity_score": 0.3205675482749939,
+    "analysis_timestamp": "2025-07-14T12:47:37.951528Z"
+  },
+  {
+    "location_id": 4,
+    "address": "Andhra Pradesh",
+    "coordinates": {
+      "latitude": 16.3067,
+      "longitude": 80.4365
+    },
+    "demand_predictions": [
+      {
+        "product_category": "Stationery",
+        "sentiment": "Positive",
+        "polarity_score": 0.3224002917607625,
+        "demand_trend": "Increasing",
+        "confidence": "Medium",
+        "recent_news_count": 3
+      },
+      {
+        "product_category": "Toys",
+        "sentiment": "Positive",
+        "polarity_score": 0.3803087870279948,
+        "demand_trend": "Increasing",
+        "confidence": "Medium",
+        "recent_news_count": 3
+      },
+      {
+        "product_category": "Books",
+        "sentiment": "Positive",
+        "polarity_score": 0.33279003699620563,
+        "demand_trend": "Increasing",
+        "confidence": "Medium",
+        "recent_news_count": 3
+      }
+    ],
+    "overall_location_sentiment": "Positive",
+    "average_polarity_score": 0.34516637192832095,
+    "analysis_timestamp": "2025-07-14T12:47:43.986738Z"
+  },
+  {
+    "location_id": 5,
+    "address": "Chhattisgarh",
+    "coordinates": {
+      "latitude": 21.2514,
+      "longitude": 81.6296
+    },
+    "demand_predictions": [
+      {
+        "product_category": "Pharmaceuticals",
+        "sentiment": "Negative",
+        "polarity_score": -0.29879339536031085,
+        "demand_trend": "Decreasing",
+        "confidence": "Medium",
+        "recent_news_count": 3
+      },
+      {
+        "product_category": "Personal Care",
+        "sentiment": "Positive",
+        "polarity_score": 0.3417438467343648,
+        "demand_trend": "Increasing",
+        "confidence": "Medium",
+        "recent_news_count": 3
+      },
+      {
+        "product_category": "Health Supplements",
+        "sentiment": "Negative",
+        "polarity_score": -0.9906118512153625,
+        "demand_trend": "Decreasing",
+        "confidence": "High",
+        "recent_news_count": 3
+      }
+    ],
+    "overall_location_sentiment": "Negative",
+    "average_polarity_score": -0.3158871332804362,
+    "analysis_timestamp": "2025-07-14T12:47:50.005349Z"
+  },
+  {
+    "location_id": 6,
+    "address": "Jammu & Kashmir",
+    "coordinates": {
+      "latitude": 32.7266,
+      "longitude": 74.857
+    },
+    "demand_predictions": [
+      {
+        "product_category": "Footwear",
+        "sentiment": "Positive",
+        "polarity_score": 0.32910605271657306,
+        "demand_trend": "Increasing",
+        "confidence": "Medium",
+        "recent_news_count": 3
+      },
+      {
+        "product_category": "Accessories",
+        "sentiment": "Positive",
+        "polarity_score": 0.9360787073771158,
+        "demand_trend": "Increasing",
+        "confidence": "High",
+        "recent_news_count": 3
+      },
+      {
+        "product_category": "Bags",
+        "sentiment": "Positive",
+        "polarity_score": 0.9996537566184998,
+        "demand_trend": "Increasing",
+        "confidence": "High",
+        "recent_news_count": 3
+      }
+    ],
+    "overall_location_sentiment": "Positive",
+    "average_polarity_score": 0.7549461722373962,
+    "analysis_timestamp": "2025-07-14T12:47:55.959058Z"
+  },
+  {
+    "location_id": 7,
+    "address": "Madhya Pradesh",
+    "coordinates": {
+      "latitude": 22.7196,
+      "longitude": 75.8577
+    },
+    "demand_predictions": [
+      {
+        "product_category": "Sports Equipment",
+        "sentiment": "Negative",
+        "polarity_score": -0.328577717145284,
+        "demand_trend": "Decreasing",
+        "confidence": "Medium",
+        "recent_news_count": 3
+      },
+      {
+        "product_category": "Outdoor Gear",
+        "sentiment": "Positive",
+        "polarity_score": 0.3618956208229065,
+        "demand_trend": "Increasing",
+        "confidence": "Medium",
+        "recent_news_count": 3
+      },
+      {
+        "product_category": "Fitness",
+        "sentiment": "Positive",
+        "polarity_score": 0.9617648323376974,
+        "demand_trend": "Increasing",
+        "confidence": "High",
+        "recent_news_count": 3
+      }
+    ],
+    "overall_location_sentiment": "Positive",
+    "average_polarity_score": 0.33169424533843994,
+    "analysis_timestamp": "2025-07-14T12:48:01.923655Z"
+  },
+  {
+    "location_id": 8,
+    "address": "Maharashtra",
+    "coordinates": {
+      "latitude": 20.9374,
+      "longitude": 77.7796
+    },
+    "demand_predictions": [
+      {
+        "product_category": "Automotive Parts",
+        "sentiment": "Negative",
+        "polarity_score": -0.21533872683842978,
+        "demand_trend": "Decreasing",
+        "confidence": "Medium",
+        "recent_news_count": 3
+      },
+      {
+        "product_category": "Tools",
+        "sentiment": "Negative",
+        "polarity_score": -0.3172856370608012,
+        "demand_trend": "Decreasing",
+        "confidence": "Medium",
+        "recent_news_count": 3
+      },
+      {
+        "product_category": "Hardware",
+        "sentiment": "Negative",
+        "polarity_score": -0.872022291024526,
+        "demand_trend": "Decreasing",
+        "confidence": "High",
+        "recent_news_count": 3
+      }
+    ],
+    "overall_location_sentiment": "Negative",
+    "average_polarity_score": -0.46821555164125234,
+    "analysis_timestamp": "2025-07-14T12:48:07.976861Z"
+  },
+  {
+    "location_id": 9,
+    "address": "Punjab",
+    "coordinates": {
+      "latitude": 31.634,
+      "longitude": 74.8723
+    },
+    "demand_predictions": [
+      {
+        "product_category": "Baby Products",
+        "sentiment": "Negative",
+        "polarity_score": -0.33465657631556195,
+        "demand_trend": "Decreasing",
+        "confidence": "Medium",
+        "recent_news_count": 3
+      },
+      {
+        "product_category": "Maternity",
+        "sentiment": "Negative",
+        "polarity_score": -0.33766690889994305,
+        "demand_trend": "Decreasing",
+        "confidence": "Medium",
+        "recent_news_count": 3
+      },
+      {
+        "product_category": "Toys",
+        "sentiment": "Positive",
+        "polarity_score": 0.3803087870279948,
+        "demand_trend": "Increasing",
+        "confidence": "Medium",
+        "recent_news_count": 3
+      }
+    ],
+    "overall_location_sentiment": "Neutral",
+    "average_polarity_score": -0.09733823272917007,
+    "analysis_timestamp": "2025-07-14T12:48:14.050956Z"
+  },
+  {
+    "location_id": 10,
+    "address": "Uttar Pradesh",
+    "coordinates": {
+      "latitude": 26.8467,
+      "longitude": 80.9462
+    },
+    "demand_predictions": [
+      {
+        "product_category": "Pet Supplies",
+        "sentiment": "Negative",
+        "polarity_score": -0.31414928038914997,
+        "demand_trend": "Decreasing",
+        "confidence": "Medium",
+        "recent_news_count": 3
+      },
+      {
+        "product_category": "Cleaning",
+        "sentiment": "Negative",
+        "polarity_score": -0.996043841044108,
+        "demand_trend": "Decreasing",
+        "confidence": "High",
+        "recent_news_count": 3
+      },
+      {
+        "product_category": "Household",
+        "sentiment": "Positive",
+        "polarity_score": 0.4580441912015279,
+        "demand_trend": "Increasing",
+        "confidence": "Medium",
+        "recent_news_count": 3
+      }
+    ],
+    "overall_location_sentiment": "Negative",
+    "average_polarity_score": -0.2840496434105767,
+    "analysis_timestamp": "2025-07-14T12:48:20.138516Z"
+  }
+]
